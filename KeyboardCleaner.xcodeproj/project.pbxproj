@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift */ = {isa = PBXBuildFile; fileRef = DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */; };
-		016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift */ = {isa = PBXBuildFile; fileRef = F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */; };
-		238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift */ = {isa = PBXBuildFile; fileRef = 127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */; };
-		BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift */ = {isa = PBXBuildFile; fileRef = CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */; };
-		450A1B2C3D4E5F6071829304 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = 349F0A1B2C3D4E5F60718293 /* Assets.xcassets */; };
+		016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */; };
+		238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */; };
+		450A1B2C3D4E5F6071829304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349F0A1B2C3D4E5F60718293 /* Assets.xcassets */; };
+		BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */; };
+		EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBlocker.swift; sourceTree = "<group>"; };
 		127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindow.swift; sourceTree = "<group>"; };
-		CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		349F0A1B2C3D4E5F60718293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561B2C3D4E5F607182930415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E1A2B3C4D5E6F7A8B9C0D1E /* MAL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAL.entitlements; sourceTree = "<group>"; };
-		CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CD2E3F4A5B6C7D8E9F0A1B2C /* MAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBlocker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB0C1D2E3F4A5B6C7D8E9F0A = {
+		AB0C1D2E3F4A5B6C7D8E9F0A /* KeyboardCleaner */ = {
 			isa = PBXGroup;
 			children = (
 				DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */,
@@ -54,7 +54,7 @@
 		BC1D2E3F4A5B6C7D8E9F0A1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */,
+				CD2E3F4A5B6C7D8E9F0A1B2C /* MAL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,9 +62,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A2B3C4D5E6F7A8B9C0D1E2F /* KeyboardCleaner */ = {
+		1A2B3C4D5E6F7A8B9C0D1E2F /* MAL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "KeyboardCleaner" */;
+			buildConfigurationList = 5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "MAL" */;
 			buildPhases = (
 				6F7A8B9C0D1E2F3A4B5C6D7E /* Sources */,
 				8B9C0D1E2F3A4B5C6D7E8F9A /* Frameworks */,
@@ -76,7 +76,7 @@
 			);
 			name = MAL;
 			productName = MAL;
-			productReference = CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */;
+			productReference = CD2E3F4A5B6C7D8E9F0A1B2C /* MAL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -87,7 +87,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2630;
 			};
 			buildConfigurationList = 4D5E6F7A8B9C0D1E2F3A4B5C /* Build configuration list for PBXProject "KeyboardCleaner" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -97,12 +97,12 @@
 				en,
 				Base,
 			);
-			mainGroup = AB0C1D2E3F4A5B6C7D8E9F0A;
+			mainGroup = AB0C1D2E3F4A5B6C7D8E9F0A /* KeyboardCleaner */;
 			productRefGroup = BC1D2E3F4A5B6C7D8E9F0A1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2B3C4D5E6F7A8B9C0D1E2F /* KeyboardCleaner */,
+				1A2B3C4D5E6F7A8B9C0D1E2F /* MAL */,
 			);
 		};
 /* End PBXProject section */
@@ -112,7 +112,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450A1B2C3D4E5F6071829304 /* Assets.xcassets */,
+				450A1B2C3D4E5F6071829304 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,10 +123,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift */,
-				016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift */,
-				238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift */,
-				BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift */,
+				EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift in Sources */,
+				016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift in Sources */,
+				238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift in Sources */,
+				BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,22 +138,51 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -164,15 +193,44 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5Q9K7U8YKX;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -183,17 +241,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = KeyboardCleaner/MAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				INFOPLIST_FILE = KeyboardCleaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinbuchholz.MAL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.MAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -204,17 +278,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = KeyboardCleaner/MAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				INFOPLIST_FILE = KeyboardCleaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinbuchholz.MAL";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinbuchholz.MAL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -233,7 +323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "KeyboardCleaner" */ = {
+		5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "MAL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C0D1E2F3A4B5C6D7E8F9A0B /* Debug */,
@@ -243,7 +333,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = 8A3F2B1C4D5E6F7A8B9C0D1E /* Project object */;
 }

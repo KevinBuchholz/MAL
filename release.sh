@@ -80,6 +80,7 @@ cat > build/ExportOptions.plist << PLIST
     <key>teamID</key>             <string>${TEAM_ID}</string>
     <key>signingStyle</key>       <string>manual</string>
     <key>signingCertificate</key> <string>${SIGNING_IDENTITY}</string>
+    <key>hardenedRuntime</key>  <true/>
 </dict>
 </plist>
 PLIST
@@ -143,4 +144,3 @@ gh release create "v${VERSION}" "$ZIP_PATH" \
  
 ok "GitHub release published: https://github.com/${GITHUB_REPO}/releases/tag/v${VERSION}"
 echo -e "\n${GREEN}All done!${NC}\n"
- 

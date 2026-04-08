@@ -47,9 +47,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Custom duration...", action: #selector(showCustomDuration), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
+        menu.addItem(NSMenuItem(title: "Uninstall MAL...", action: #selector(uninstall), keyEquivalent: ""))
+        menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
-        menu.items.forEach { $0.target = self }
+        menu.items.forEach { if $0.action != #selector(NSApplication.terminate(_:)) { $0.target = self } }
         statusItem?.menu = menu
         statusItem?.button?.performClick(nil)
         statusItem?.menu = nil
@@ -58,6 +60,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func lock30()  { startLock(seconds: 30) }
     @objc func lock60()  { startLock(seconds: 60) }
     @objc func lock120() { startLock(seconds: 120) }
+
+    @objc func uninstall() {
+        let alert = NSAlert()
+        alert.messageText = "Uninstall MAL?"
+        alert.informativeText = "MAL will be moved to the Trash and quit."
+        alert.addButton(withTitle: "Move to Trash")
+        alert.addButton(withTitle: "Cancel")
+        alert.alertStyle = .warning
+
+        guard alert.runModal() == .alertFirstButtonReturn else { return }
+
+        guard let appURL = Bundle.main.bundleURL else { return }
+
+        do {
+            try NSWorkspace.shared.recycle([appURL])
+        } catch {
+            // Fallback: open Finder to the app location
+            NSWorkspace.shared.activateFileViewerSelecting([appURL])
+        }
+
+        NSApplication.shared.terminate(nil)
+    }
 
     @objc func showCustomDuration() {
         let alert = NSAlert()
@@ -135,3 +159,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 }
+
