@@ -71,7 +71,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         guard alert.runModal() == .alertFirstButtonReturn else { return }
 
-        guard let appURL = Bundle.main.bundleURL else { return }
+        let appURL = Bundle.main.bundleURL
 
         do {
             try NSWorkspace.shared.recycle([appURL])
