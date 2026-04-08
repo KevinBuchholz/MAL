@@ -21,7 +21,7 @@ SCHEME="MAL"
 PROJECT="KeyboardCleaner.xcodeproj"
 BUNDLE_ID="com.kevinbuchholz.MAL"
 TEAM_ID="5Q9K7U8YKX"                                          # e.g. "ABC123DEF4"
-SIGNING_IDENTITY="Apple Development: Kevin Buchholz (346HW2Z3H9)"                                 # e.g. "Developer ID Application: Kevin Buchholz (ABC123DEF4)"
+SIGNING_IDENTITY="Developer ID Application: Kevin Buchholz (5Q9K7U8YKX)"                                # e.g. "Developer ID Application: Kevin Buchholz (ABC123DEF4)"
 APPLE_ID="buchholz.kevin@gmail.com"                                         # your Apple ID email
 NOTARIZE_PASSWORD="${NOTARIZE_PASSWORD:-}"           # set via: export NOTARIZE_PASSWORD="xxxx-xxxx-xxxx-xxxx"
 GITHUB_REPO="https://github.com/KevinBuchholz/MAL"                                      # e.g. "kevinbuchholz/mal"
@@ -67,7 +67,7 @@ xcodebuild archive \
     -destination "generic/platform=macOS" \
     CODE_SIGN_IDENTITY="$SIGNING_IDENTITY" \
     DEVELOPMENT_TEAM="$TEAM_ID" \
-    | xcpretty || true
+
 ok "Archive created at ${ARCHIVE_PATH}"
 
 step "Exporting .app (Developer ID)"
@@ -88,7 +88,7 @@ xcodebuild -exportArchive \
     -archivePath "$ARCHIVE_PATH" \
     -exportPath "$EXPORT_PATH" \
     -exportOptionsPlist build/ExportOptions.plist \
-    | xcpretty || true
+
 
 # Find the actual .app — name may vary
 APP_PATH=$(find "$EXPORT_PATH" -name "*.app" -maxdepth 1 | head -1)
