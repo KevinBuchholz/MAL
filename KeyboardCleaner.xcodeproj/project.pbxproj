@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift */ = {isa = PBXBuildFile; fileRef = DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */; };
+		016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift */ = {isa = PBXBuildFile; fileRef = F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */; };
+		238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift */ = {isa = PBXBuildFile; fileRef = 127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */; };
+		BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift */ = {isa = PBXBuildFile; fileRef = CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */; };
+		450A1B2C3D4E5F6071829304 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = 349F0A1B2C3D4E5F60718293 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBlocker.swift; sourceTree = "<group>"; };
+		127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindow.swift; sourceTree = "<group>"; };
+		CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		349F0A1B2C3D4E5F60718293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561B2C3D4E5F607182930415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1A2B3C4D5E6F7A8B9C0D1E /* MAL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MAL.entitlements; sourceTree = "<group>"; };
+		CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9C0D1E2F3A4B5C6D7E8F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0C1D2E3F4A5B6C7D8E9F0A = {
+			isa = PBXGroup;
+			children = (
+				DE3F4A5B6C7D8E9F0A1B2C3D /* AppDelegate.swift */,
+				F05B6C7D8E9F0A1B2C3D4E5F /* KeyboardBlocker.swift */,
+				127D8E9F0A1B2C3D4E5F6071 /* OverlayWindow.swift */,
+				CC2F3A4B5C6D7E8F9A0B1C2D /* main.swift */,
+				349F0A1B2C3D4E5F60718293 /* Assets.xcassets */,
+				561B2C3D4E5F607182930415 /* Info.plist */,
+				6E1A2B3C4D5E6F7A8B9C0D1E /* MAL.entitlements */,
+				BC1D2E3F4A5B6C7D8E9F0A1B /* Products */,
+			);
+			path = KeyboardCleaner;
+			sourceTree = "<group>";
+		};
+		BC1D2E3F4A5B6C7D8E9F0A1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2B3C4D5E6F7A8B9C0D1E2F /* KeyboardCleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "KeyboardCleaner" */;
+			buildPhases = (
+				6F7A8B9C0D1E2F3A4B5C6D7E /* Sources */,
+				8B9C0D1E2F3A4B5C6D7E8F9A /* Frameworks */,
+				7A8B9C0D1E2F3A4B5C6D7E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAL;
+			productName = MAL;
+			productReference = CD2E3F4A5B6C7D8E9F0A1B2C /* KeyboardCleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3F2B1C4D5E6F7A8B9C0D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4D5E6F7A8B9C0D1E2F3A4B5C /* Build configuration list for PBXProject "KeyboardCleaner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB0C1D2E3F4A5B6C7D8E9F0A;
+			productRefGroup = BC1D2E3F4A5B6C7D8E9F0A1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2B3C4D5E6F7A8B9C0D1E2F /* KeyboardCleaner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A8B9C0D1E2F3A4B5C6D7E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450A1B2C3D4E5F6071829304 /* Assets.xcassets */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F7A8B9C0D1E2F3A4B5C6D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4A5B6C7D8E9F0A1B2C3D4E /* AppDelegate.swift */,
+				016C7D8E9F0A1B2C3D4E5F60 /* KeyboardBlocker.swift */,
+				238E9F0A1B2C3D4E5F607182 /* OverlayWindow.swift */,
+				BB1E2F3A4B5C6D7E8F9A0B1C /* main.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B3C4D5E6F7A8B9C0D1E2F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C4D5E6F7A8B9C0D1E2F3A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C0D1E2F3A4B5C6D7E8F9A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyboardCleaner/MAL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyboardCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinbuchholz.MAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0D1E2F3A4B5C6D7E8F9A0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyboardCleaner/MAL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyboardCleaner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinbuchholz.MAL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5E6F7A8B9C0D1E2F3A4B5C /* Build configuration list for PBXProject "KeyboardCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3C4D5E6F7A8B9C0D1E2F3A /* Debug */,
+				3C4D5E6F7A8B9C0D1E2F3A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6F7A8B9C0D1E2F3A4B5C6D /* Build configuration list for PBXNativeTarget "KeyboardCleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0D1E2F3A4B5C6D7E8F9A0B /* Debug */,
+				AA0D1E2F3A4B5C6D7E8F9A0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 8A3F2B1C4D5E6F7A8B9C0D1E /* Project object */;
+}
