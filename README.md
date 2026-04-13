@@ -74,4 +74,3 @@ Requires [GitHub CLI](https://cli.github.com) and [xcpretty](https://github.com/
 
 ## License
 
-MIT
